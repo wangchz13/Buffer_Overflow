@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61007A7E
+eax=00000000 ebx=0061CC7C ecx=00000000 edx=00005800 esi=0061CC98 edi=611CCFB2
+ebp=78777675 esp=0061CC60 program=E:\GitHub\Buffer_Overflow\test.exe, pid 2740, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace
