@@ -1,15 +1,12 @@
-#include <stdio.h>
-#include <string.h>
+#include <windows.h>
 
-char name[] = "abcdefghijklmnopqrstuvwxyz";
+void f()
+{
+	system("calc");
+}
 
 int main()
 {
-    char output[8];
-    strcpy(output, name);
-    for (int i = 0; i < 8&&output[i]; i++)
-    {
-        printf("\\0x%x", output[i]);
-    }
+    f();
     return 0;
 }

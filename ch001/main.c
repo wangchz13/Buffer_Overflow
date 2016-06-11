@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+char name[] = 
+"\x41\x41\x41\x41"
+"\x41\x41\x41\x41"
+"\x11\x22\x33\x44"
+"\xcb\xad\xe2\x75"
+"\x68\x1C\x40\x42\x00"
+"\xE8\x2E\x00\x00\x00";
+
+
+int main()
+{
+	char output[8];
+	strcpy(output, name);
+	return 0;
+}
